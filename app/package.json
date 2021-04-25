@@ -1,0 +1,20 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Harsh Mendapara <mendaparaharsh02@gmail.com>",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@log4js-node/logstashudp": "^1.2.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "log4js": "^4.3.1",
+    "winston": "^2.4.3",
+    "winston-logstash": "^0.4.0"
+  }
+}
